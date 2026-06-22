@@ -1,4 +1,4 @@
-"""
+﻿"""
 Super-Resolution Final PPT - High Density Chinese, McKinsey + Block
 """
 from pptx import Presentation
@@ -86,7 +86,7 @@ R(s, 0, 0, SW, SH, fill=WHITE); R(s, 0, 0, SW, Inches(0.08), fill=NAVY)
 T(s, Inches(0.9), Inches(1.6), Inches(9), Inches(1.0), "图像超分辨率", fs=42, c=NAVY, b=True, fn='Georgia')
 T(s, Inches(0.9), Inches(2.6), Inches(9), Inches(0.5), "基于卷积神经网络的图像重建  ·  SRCNN vs SRResNet", fs=16, c=MED_GRAY)
 HL(s, Inches(0.9), Inches(3.2), Inches(2.5), NAVY, Pt(2.0))
-T(s, Inches(0.9), Inches(3.7), Inches(5), Inches(0.3), "大数据学院  人工智能23-1  王佳铭  23311717106", fs=13, c=DARK_GRAY)
+T(s, Inches(0.9), Inches(3.7), Inches(5), Inches(0.3), "人工智能专业", fs=13, c=DARK_GRAY)
 # Right side metrics (compact: 4 clean numbers)
 NB(s, Inches(9.5), Inches(1.8), Inches(1.3), Inches(0.8), "2×", "放大倍数")
 NB(s, Inches(11.0), Inches(1.8), Inches(1.3), Inches(0.8), "47.99", "SRCNN PSNR", ACC_BLUE)
@@ -427,3 +427,4 @@ PN(s, 8)
 sp = os.path.join(BASE, "super_resolution_final.pptx")
 prs.save(sp)
 print(f"PPT saved: {sp}")
+
